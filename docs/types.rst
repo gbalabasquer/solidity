@@ -350,7 +350,7 @@ In contrast to the parameter types, the return types cannot be empty - if the
 function type should not return anything, the whole ``returns (<return types>)``
 part has to be omitted.
 
-By default, function types are internal, so the ``internal`` keyword can be
+By default, function types are external, so the ``external`` keyword can be
 omitted.
 
 There are two ways to access a function in the current contract: Either directly
